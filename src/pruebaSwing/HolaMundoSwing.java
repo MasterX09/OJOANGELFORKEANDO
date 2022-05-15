@@ -22,6 +22,7 @@ public class HolaMundoSwing extends JFrame implements ActionListener{
 	public static void main(String[] args) {
 		HolaMundoSwing ventana = new HolaMundoSwing();
 		ventana.setVisible(true);
+		int x = 0; 
 	}
 	public HolaMundoSwing() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
